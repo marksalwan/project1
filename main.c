@@ -2,20 +2,22 @@
 
 int main () {
     
-    char numbers[100] ;
-    char counter;
-    for (counter = 0; counter < 100; counter++) {
-    letter[counter] = 0;
-    }
-
-
+    int key;    
+    char letters[100], ch;
+    int z;
+    
 
     printf("Enter encryption message" );
     
+    printf("Enter the key used:");
+    scanf("%d",&key);
     
-    scanf("%d ")
+    
+    
+    
+    
+   
     
     
 
-  return 0;
-}
+ 
