@@ -6,7 +6,7 @@
 int main()
 {
    int i;
-   int options;
+   int option;
    int key;
    char str[250];
 
@@ -18,10 +18,10 @@ int main()
    printf("\nPlease choose following options:\n");
    printf("1 = Encrypt the message.\n");
    printf("2 = Decrypt the message.\n");
-   scanf("%d", &options); 
+   scanf("%d", &option); 
 
    
-   switch(options)
+   switch(option)
    {
    case 1:
       for(i = 0; (i < 100 && str[i] != '\0'); i++)
